@@ -1,0 +1,33 @@
+.jumbotron {
+    background-color: #000854;
+    color: white;
+}
+
+#hourCol {
+    background-color: rgb(215, 225, 233);
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#textCol {
+    background-color: rgb(154, 171, 185);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#saveCol {
+    background-color: rgb(48, 117, 177);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
