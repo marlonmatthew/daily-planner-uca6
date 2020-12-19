@@ -1,27 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+
 .jumbotron {
     background-color: #000854;
     color: white;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#currentDay {
+    font-size: 24px;
 }
 
 #hourCol {
     background-color: rgb(215, 225, 233);
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
-#textCol {
+h6 {
+    font-size: 26px;
+}
+
+textarea {
     background-color: rgb(154, 171, 185);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
 }
 
-#saveCol {
+button {
     background-color: rgb(48, 117, 177);
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 img {
