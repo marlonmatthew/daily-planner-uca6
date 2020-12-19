@@ -1,6 +1,8 @@
 # Daily Planner for Amazon UFF UCA6 Dock Crew by Marlon Matthew
 
-## Description 
+## Description
+
+![Capture](https://user-images.githubusercontent.com/73320305/102684212-75f23800-418b-11eb-954c-a1a9c0c2aab3.PNG)
 
 User will be able to enter 3 lines of text for each hour displayed.
 Each hour will be color coded black if the hour has passed, light blue/gray if the hour is in the future, and red if the hour is current.

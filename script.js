@@ -292,10 +292,10 @@ $(document).ready(function () {
     // this function will set the background color of the text area to black if the hour is already passed
     // if the hour is the current hour, the background color will be red
     function renderColors() {
-        if (dt.hour < 24) {
+        if (dt.hour > 0) {
             $("#textCol24").css("background-color", "black");
             $("#textCol24").css("color", "white");
-        } else if (dt.hour === 24) {
+        } else if (dt.hour === 0) {
             $("#textCol24").css("background-color", "red");
         }
 
@@ -809,76 +809,76 @@ $(document).ready(function () {
         $("#clear").on("click", function () {
             localStorage.clear();
             $("#saveCol24").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol24").empty();
+            textFor24.value = "";
             status24 = "unlocked";
             $("#saveCol1").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol1").empty();
+            textFor1.value = "";
             status1 = "unlocked";
             $("#saveCol2").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol2").empty();
+            textFor2.value = "";
             status2 = "unlocked";
             $("#saveCol3").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol3").empty();
+            textFor3.value = "";
             status3 = "unlocked";
             $("#saveCol4").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol4").empty();
+            textFor4.value = ""; $("#textCol4").empty();
             status4 = "unlocked";
             $("#saveCol5").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol5").empty();
+            textFor5.value = "";
             status5 = "unlocked";
             $("#saveCol6").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol6").empty();
+            textFor6.value = "";
             status6 = "unlocked";
             $("#saveCol7").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol7").empty();
+            textFor7.value = "";
             status7 = "unlocked";
             $("#saveCol8").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol8").empty();
+            textFor8.value = "";
             status8 = "unlocked";
             $("#saveCol9").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol9").empty();
+            textFor9.value = "";
             status9 = "unlocked";
             $("#saveCol10").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol10").empty();
+            textFor10.value = "";
             status10 = "unlocked";
             $("#saveCol11").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol11").empty();
+            textFor11.value = "";
             status11 = "unlocked";
             $("#saveCol12").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol12").empty();
+            textFor12.value = "";
             status12 = "unlocked";
             $("#saveCol13").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol13").empty();
+            textFor13.value = "";
             status13 = "unlocked";
             $("#saveCol14").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol14").empty();
+            textFor14.value = "";
             status14 = "unlocked";
             $("#saveCol15").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol15").empty();
+            textFor15.value = "";
             status15 = "unlocked";
             $("#saveCol16").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol16").empty();
+            textFor16.value = "";
             status16 = "unlocked";
             $("#saveCol17").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol17").empty();
+            textFor17.value = "";
             status17 = "unlocked";
             $("#saveCol18").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol18").empty();
+            textFor18.value = "";
             status18 = "unlocked";
             $("#saveCol19").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol19").empty();
+            textFor19.value = "";
             status19 = "unlocked";
             $("#saveCol20").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol20").empty();
+            textFor20.value = "";
             status20 = "unlocked";
             $("#saveCol21").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol21").empty();
+            textFor21.value = "";
             status21 = "unlocked";
             $("#saveCol22").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol22").empty();
+            textFor22.value = "";
             status22 = "unlocked";
             $("#saveCol23").html(`<i class="fas fa-unlock-alt"></i>`);
-            $("#textCol23").empty();
+            textFor23.value = "";
             status23 = "unlocked";
         });
 
